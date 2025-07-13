@@ -1,0 +1,471 @@
+/* general colors */
+
+a {
+    color: blue;
+}
+body {
+    color: #333;
+    background-color: #fff;
+    border-top: 3px solid #636382;
+    border-right: none!important;
+    border-bottom: none!important;
+    border-left: none!important;
+    
+}
+button {
+    background: transparent;
+    color: #bbb;
+}
+#external_wrap {}
+/* background color for box element */
+/*.background_chat, .background_login { background:#222; box-shadow:0 0 5px #000;}*/
+
+.background_box {
+    color: #4d4d4d;
+    border: none;
+}
+.background_menu_footer {
+    background: #fcfcfc;
+    border-top: 1px solid #AEAEBD;
+}
+.panels {
+    background: #f3f3f3;
+    border-left: 3px solid #77848F;
+    box-sizing: border-box;
+}
+#chat_error {
+    background: #77848F;
+}
+#inner_header,
+#header_login {
+    background: url(logo/Default.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left center;
+}
+#menu_private {
+    background: #fafafa;
+    height: 28px!important;
+}
+/* chat logs switch colors */
+
+.log1 {
+    background: #fafafa;
+    border-bottom: 1px dashed #e3e3e3 !important;
+}
+.log2 {
+    background: #fff;
+    border-bottom: 1px dashed #e3e3e3 !important;
+    
+}
+#show_chat li:last-child {
+    border-bottom: none!important;
+}
+.ch_logs {
+    border-bottom: none;
+}
+/* separator colors */
+
+.user_separator {
+    border: 1px dotted #c5c5c5;
+}
+.user_option_separator {
+    border: 1px dotted #c5c5c5;
+}
+/*.top_separator { border-top:1px solid #333; }*/
+
+.right_separator {
+    border-right: 1px solid #eee;
+}
+/*.bottom_separator { border-bottom:1px solid #111; }*/
+/* user list drop down colors */
+
+.user_option_list {
+    background: #fff;
+    color: #444;
+}
+/* button and element colors */
+
+.sub_button {
+    border: 1px dotted #c5c5c5;
+    color: #444;
+}
+#login_button,
+#register_button,
+#recovery_button,
+#newpass_button,
+#guest_button,
+#guest_ok {
+    color: #fff;
+    background-color: #636382;
+}
+#submit_button {
+    color: #fff;
+    background-color: #636382;
+    float: left!important;
+    position: relative;
+    }
+#submit_button:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #636382;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: -10px;
+    left: -10px;
+    top: 50%;
+}
+#submit_button:before
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 11px 11px 11px 0;
+    border-color: transparent #e3e3e3;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: -11px;
+    left: -11px;
+    top: 50%;
+}
+/* this is main button send */
+
+.sub_element {
+    background: #ddd;
+    color: #444;
+}
+.empty_element {
+    background: #f1f1f1;
+    color: #444;
+}
+#main_option .selected_element {
+    background: #77848F;
+    color: #fff;
+}
+.selected_element {
+    background: #77848F;
+    color: #fff;
+}
+.hover_element:hover {
+    background: #77848F;
+    color: #fff;
+}
+#main_option .hover_element:hover {
+    background: #77848F;
+}
+/* ads background */
+
+#show_chat_ads {
+    background: #fff!important;
+}
+/* special colors and sub colors */
+
+.error {
+    color: #fff;
+}
+.success {
+    color: #fff;
+}
+.away {
+    color: #888;
+}
+.my_notice {
+    background: #E8DD81;
+    padding: 3px;
+}
+.sub_color2 {
+    color: #77848F;
+}
+.sub_color {
+    color: #77848F;
+}
+#main_option .sub_color,
+#tools_panel .sub_color {
+    color: #77848F;
+}
+.hide_private_title {
+    color: #ccc;
+}
+.room_userin {
+    color: #222;
+}
+.wrap_command:hover {
+    background: #ddd!important;
+    color: #444!important;
+}
+.tooltip:hover:before,
+.tooltip2:hover:before,
+.tooltip3:hover:before {
+    border-color: #636382 transparent;
+}
+.tooltip:hover:after,
+.tooltip2:hover:after,
+.tooltip3:hover:after {
+    background: none repeat scroll 0 0 #636382;
+    color: #fff;
+}
+/* private chat color message */
+
+.target_private {
+    color: #fff;
+    background: #999;
+}
+.hunter_private {
+    color: #fff;
+    background: #77848F;
+}
+/* inside chat color */
+
+.datechat {
+    color: #666;
+}
+.me {
+    color: #036;
+    background: #E8F2FC;
+}
+.global {
+    color: #5f1d1d;
+    background: #ffecec;
+}
+.private {
+    color: #294229;
+    background: #daf0da;
+}
+.private_reply {
+    background: #8ea68e;
+    color: #fff;
+    margin-top: 3px;
+    padding: 1px 20px 4px !important;
+    border-radius: 2px;
+    font-size: 0.9em;
+}
+.seen {
+    color: #3f2d4f;
+    background: #eeeaf2;
+}
+.delete_log,
+.logs_date {
+    color: #ccc;
+}
+/* user color and special user color */
+.open_user p.admin, .open_user p.sadmin, .open_user p.modo, .open_user p.vip, .open_user p.user, .open_user p.guest {
+    text-shadow: none!important;
+    border-radius: 0!important;
+}
+.system {
+    color: #555!important;
+    font-size: .8em!important;
+}
+.admin {
+    color: #c03;
+}
+.sadmin {
+    color: #77848F;
+}
+.modo {
+    color: #06f!important;
+}
+.vip {
+    color: #096;
+}
+.user {
+    color: #333;
+}
+.guest {
+    color: #9A9560;
+}
+/* color picker and tools bar */
+
+.bar_options {
+    border-left: 1px solid #fafafa;
+    border-right: 1px solid #eee;
+}
+/* change the bar element separator */
+
+#picker_box,
+#list_emoticon {
+    background: #fafafa;
+    border: 3px solid #636382;
+}
+/* change the background color of box */
+
+.sel_item {
+    background: #999;
+}
+/* change background of element when selected on bar */
+
+.pick_color,
+#smile_content {
+    border-left: 1px solid #fefefe;
+    border-bottom: 1px solid #fafafa;
+    border-top: 1px solid #fefefe;
+    border-right: 1px solid #fafafa;
+}
+/* change border of element and subelement */
+
+#smile_content {
+    background: #fafafa;
+}
+/* change background of emoticon content */
+/* user list hover name */
+
+.usertarget:hover {
+    color: #fff!important;
+    opacity: 1;
+}
+.open_user {
+    background: #ddd;
+}
+/* input & textarea */
+
+input,
+textarea {
+    box-sizing: border-box;
+    border: 1px solid #e3e3e3!important;
+    border-radius: 0!important;
+}
+select {
+    box-sizing: border-box;
+    border: 1px solid #e3e3e3!important;}
+/* delete element icon */
+
+.delete_element {
+    padding-right: 3px;
+}
+/*  fixes for parent styles  */
+.panelthree
+{
+    margin-bottom: -370px!important;  
+}
+#content
+{
+    padding: 0 12px 0 1%!important;
+}
+.system span.delete_log {
+    font-size: 1.2em;
+}
+.admin_user_empty, #back_login, #guest_button, #guest_ok, #login_button, #register_button, #recovery_button, #newpass_button, #submit_avatar, .element, .container_element, .roombutton, .room_select_button, .view_user_button, .setting_option_button, #setting_button, #account_button, #update_password
+{
+    border-radius: 0!important;
+}
+div#option_title p
+{
+    color: #77848F;
+}
+.title_user_quart {
+    background: #a1aab0 !important;
+    }
+#update_iframe {
+    background-color: #ccc !important;
+    margin-top: 6px;
+}
+div#private_count {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: medium none !important;
+    left: 0 !important;
+    top: 22% !important;
+    color: #fff;
+    font-size: 0.7em;
+}
+#private_content {
+    font-size: 1.1em!important;
+    height: 40px!important;
+    padding: 0 9px!important;
+}
+#submit_private {
+    padding: 12px 0!important;
+}
+#private_chat ul {
+    margin-top: 24px!important;
+}
+#room_topic {
+    background: #fff;
+    box-sizing: border-box!important;
+    padding: 13px 5px 5px!important;
+}
+#guest_ok {
+    width: 94%;
+}
+
+/* panel option */
+#setting_button, #update_password,.submit_image, #submit_avatar{
+    background: #77848F;    
+    border: none!important;
+    color: #fff!important;
+    border-radius: 0!important;
+}
+
+#main_option input,
+#tools_panel input,
+#tools_panel textarea,
+#main_option textarea,
+.top_panels input,
+.top_panels textarea {
+border: 1px solid #e3e3e3!important;
+}
+.sub_button {
+    cursor: pointer;
+}
+#tools_panel input.sub_button:hover,
+#chat_panel .hover_element:hover,
+.top_panels .hover_element:hover,
+#chat_panel .selected_element,
+.hunter_private,
+.top_panels .selected_element {
+    background: #636382;
+    color: #fff;
+}
+#chat_panel .room_type {
+    color: #222;
+    text-shadow: none!important;
+}
+.top_panels select {
+    color: #444!important;
+}
+.option_add {
+    background: #fafafa none repeat scroll 0 0;
+    border: 3px solid #77848F;
+    border-radius: 0;
+}
+.panelone .sub_color {
+    color: #77848F;
+}
+/* ADDONS ICONS */
+#boom_search img, #boom_vip img, #boom_quiz img, #boom_bot img, #boom_embed img
+{
+    display: none;
+}
+#boom_search, #boom_vip, #boom_quiz, #boom_bot, #boom_embed{
+    background-repeat: no-repeat!important;
+    background-size: auto 100%!important;
+    background-position: center center!important;
+    height: 35px;
+    width: 35px;
+    }
+#boom_search{
+    background: url(addons/boom_search.png);
+    }
+#boom_vip{
+    background: url(addons/boom_vip.png);
+    }   
+#boom_quiz{
+    background: url(addons/boom_quiz.png);
+    } 
+#boom_bot{
+    background: url(addons/boom_bot.png);
+    } 
+#boom_embed{
+    background-image: url(addons/boom_embed.png);
+    }  
+/*  MOBILE fix  */
+@media only screen and (max-width: 321px) {
+    
+    .panels {
+    border-left: none!important;
+}
+}

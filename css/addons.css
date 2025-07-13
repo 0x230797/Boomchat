@@ -1,0 +1,37 @@
+.load_option {
+	float:left;
+	margin-left:10px;
+	margin-right:7px;
+}
+#wrap_options {
+	position:absolute;
+	width:164px;
+	height:auto;
+	bottom:100%;
+	margin-left:-60px;
+	z-index:100000;
+	border-radius:8px;
+	overflow:hidden;
+	padding:2px 5px;
+	display:none;
+}
+#wrap_options img {
+	display:block;
+	float:left;
+	width:35px;
+	height:35px;
+}
+.addon_options {
+	margin:3px;
+}
+#addon_container {
+	padding:5px 0;
+}
+#option_title {
+	padding:3px 0;
+	height:17px;
+	font-size:12px;
+}
+#playbtn {
+	width:42px;
+}

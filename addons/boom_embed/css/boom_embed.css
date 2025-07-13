@@ -1,0 +1,93 @@
+.boom_embed_container {
+	width:100%;
+	height:auto;
+	padding:10px 0;
+	margin:0 auto;
+}
+.boom_embed_input {
+	float:right;
+	width:60px;
+	padding:4px;
+}
+.boom_embed_input_large {
+	float:right;
+	text-align:right;
+	width:150px;
+	padding:4px;
+}
+.boom_embed_button {
+	width:96%;
+	padding:5px 2%;
+	font-size:15px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:10px;
+}
+.boom_embed_full {
+	width:100% !important;
+}
+.boom_embed_menu_button {
+    border-radius: 5px;
+    margin-bottom: 3px;
+    padding: 4px 0;
+    text-align: center;
+    width: 49%;
+}
+#boom_embed_top_menu {
+	margin-bottom:10px;
+}
+.boom_embed_left {
+	float:left;
+}
+.boom_embed_right {
+	float:right;
+}
+#boom_embed_menu {
+	margin-top:8px;
+}
+.boom_embed_textarea {
+	width:100%;
+	min-width:100%;
+	max-width:100%;
+	height:170px;
+	min-height:170px;
+	max-height:170px;
+	clear:both;
+	padding:4px;
+}
+.boom_embed_textarea_head{
+	width:100%;
+	min-width:100%;
+	max-width:100%;
+	height:50px;
+	min-height:50px;
+	max-height:80px;
+	clear:both;
+	padding:4px;
+}
+.boom_embed_p {
+	padding-top:10px;
+	padding-bottom:5px;
+}
+#boom_embed_form2, #boom_embed_code2, #boom_embed_form3{
+	display:none;
+}
+.boom_embed_warn {
+	color:orange;
+}
+.boom_embed_left {
+	float:left;
+}
+.boom_embed_right {
+	float:right;
+}
+.boom_embed_full {
+	width:100% !important;
+}
+.boom_embed_h3 {
+	padding-top:5px;
+}
+.boom_embed_help_item {
+	padding-bottom:5px;
+	padding-top:5px;
+}

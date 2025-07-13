@@ -1,0 +1,629 @@
+/* general colors */
+
+a {
+    color: #177EE5;
+}
+body {
+    color: rgba(163, 175, 183, 0.9);
+    background-color: #263238;
+    background-image: url(images/bg.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto;
+}
+button {
+    background: transparent;
+    color: #bbb;
+}
+#external_wrap {}
+/* background color for box element */
+/*.background_chat, .background_login { background:#222; box-shadow:0 0 5px #000;}*/
+
+.background_box {
+    border: none;
+}
+#wrap_footer {
+    box-shadow: 0 0 12px 13px rgba(0, 0, 0, 0.26);
+}
+
+
+.background_menu_footer, #wrap_footer {
+    background: #21292e;
+}
+.panels {
+    background: #263238;
+    box-sizing: border-box;
+    color: rgba(163, 175, 183, 0.3);
+}
+#chat_error {
+    background-color: #F96868;
+    border-radius:5px;
+}
+#inner_header,
+#header_login {
+    background: url(logo/Default.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left center;
+}
+#menu_private {
+    background: #242f35 none repeat scroll 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+    height: 28px!important;
+}
+/* chat logs switch colors */
+
+#show_chat li:last-child {
+    border-bottom: none!important;
+}
+.ch_logs {
+    border-bottom: none;
+}
+/* separator colors */
+
+.user_separator {
+   
+}
+.user_option_separator {
+}
+/*.top_separator { border-top:1px solid #333; }*/
+
+.right_separator {
+    border-right: 1px solid #eee;
+}
+/*.bottom_separator { border-bottom:1px solid #111; }*/
+/* user list drop down colors */
+
+.user_option_list {
+    background: #21292e;
+    color: #888;
+}
+/* button and element colors */
+
+.sub_button {
+    background: #242f35 none repeat scroll 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+    color: rgba(163, 175, 183, 0.9);
+}
+#login_button,
+#register_button,
+#recovery_button,
+#newpass_button,
+#guest_button,
+#guest_ok {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+}
+button#submit_button {
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    transition: box-shadow 0.25s linear 0s, border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+}
+
+button#submit_button:active {
+    background: #1e2427;
+}
+/* this is main button send */
+
+.sub_element {
+    background-color: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.8);
+}
+.empty_element {
+    background-color: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.8);
+}
+#main_option .selected_element {
+    background-color: rgba(241, 91, 95, 0.44);
+    color: rgba(255, 255, 255, 0.8);
+}
+.selected_element {
+    background-color: rgba(241, 91, 95, 0.44);
+    color: rgba(255, 255, 255, 0.8);
+}
+.hover_element:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.8);
+}
+#main_option .hover_element:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.8);
+}
+/* ads background */
+
+#show_chat_ads {
+    background: #263238!important;
+}
+/* special colors and sub colors */
+
+.error {
+    color: #fff;
+}
+.success {
+    color: #fff;
+}
+.away {
+    color: #444;
+}
+.my_notice {
+    background: #46BE8A;
+    color: #fff;
+    padding: 3px;
+}
+.sub_color2 {
+    color: #77848F;
+}
+.sub_color {
+    color: #77848F;
+}
+#main_option .sub_color,
+#tools_panel .sub_color {
+    color: #77848F;
+}
+.hide_private_title {
+    color: #ccc;
+}
+.room_userin {
+    color: #222;
+}
+.wrap_command:hover {
+    background: rgba(255, 255, 255, 0.08)!important;
+    color: rgba(255, 255, 255, 0.9)!important;
+}
+.tooltip:hover:before,
+.tooltip2:hover:before,
+.tooltip3:hover:before {
+    border-color: rgba(0, 0, 0, 0.8) transparent;
+    opacity: 0.9;
+}
+.tooltip:hover:after,
+.tooltip2:hover:after,
+.tooltip3:hover:after {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    opacity: 0.9;
+}
+.tooltip:hover::after {
+    bottom: 62px!important;}
+    
+.tooltip:hover::before {
+    bottom: 56px!important;}
+/* private chat color message */
+
+.target_private {
+    color: #fff;
+    background: #999;
+}
+.hunter_private {
+    color: #fff;
+    background: #77848F;
+}
+/* inside chat color */
+
+.datechat {
+    color: #666;
+}
+
+.private {
+    color: #294229;
+    background: none;
+    text-shadow: 0 0 1px #555;
+}
+
+.private_reply {
+    background: rgba(241, 91, 95, 0.44) none repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #ccc;
+    font-size: 0.9em;
+    margin: 4px 0 0 10px;
+}
+
+.delete_log,
+.logs_date {
+    color: rgba(255, 255, 255, 0.17);
+}
+/* user color and special user color */
+.open_user p.admin, .open_user p.sadmin, .open_user p.modo, .open_user p.vip, .open_user p.user, .open_user p.guest {
+    text-shadow: none!important;
+    border-radius: 0!important;
+}
+.system {
+    color: #555!important;
+    font-size: .8em!important;
+}
+.admin {
+    color: #F96868;
+}
+.sadmin {
+    color: #77848F;
+}
+.modo {
+    color: #46be8a!important;
+}
+.vip {
+    color: #926DDE;
+}
+.user {
+    color: #CCC;
+}
+.guest {
+    color: #F2A654;
+}
+/* change the bar element separator */
+
+#picker_box,
+#list_emoticon {
+    background: #263238 none repeat scroll 0 0;
+    border: 1px solid #1E2427!important;
+    border-radius: 0;
+}
+/* change the background color of box */
+
+.sel_item {
+    background: #1E2427;
+    border-radius: 2px;
+    }
+/* change background of emoticon content */
+/* user list hover name */
+
+.usertarget:hover {
+    color: #fff!important;
+    opacity: 1;
+}
+.open_user {
+
+}
+/* input & textarea */
+
+input,
+textarea {
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: box-shadow 0.25s linear 0s, border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    display: block;
+    padding: 6px 15px;
+    background: #1e2427;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04)!important;
+    border-top: 1px solid rgba(0, 0, 0, 0.04)!important;
+    border-left:none!important;
+    border-right: none!important;
+    color: rgba(163, 175, 183, 0.3);
+}
+#content:focus {
+    border-color: rgba(163, 175, 183, 0.3)!important;
+    box-shadow: none;
+}
+select {
+    box-sizing: border-box;
+    border: 1px solid rgba(163, 175, 183, 0.1) !important;}
+/* delete element icon */
+
+.delete_element {
+    padding-right: 3px;
+}
+/*  fixes for parent styles  */
+.panelthree
+{
+    margin-bottom: -370px!important;  
+}
+.ch_logs {
+    padding: 0px 1%!important;
+}
+.option_list li {
+    padding: 6px 0 6px 10px!important;
+}
+.tooltip2:hover::after {
+    border-radius: 2px!important;
+    bottom: -29px!important;
+    }
+.chat_avatar_wrap img, .chat_avatar_wrap2 img {
+    position: relative;
+    z-index: 1;
+}
+.chat_avatar_wrap, .chat_avatar_wrap2, .avatar_chat, .avatar_userlist {
+    border-radius: 5px!important;
+}
+#container_login {
+    border-radius: 5px!important;
+    box-shadow: 0 1px 14px 19px rgba(0, 0, 0, 0.2)!important;
+}
+.title_command {
+    padding-left: 5px!important;
+}
+.addon_options {
+    margin: 0 !important;
+}
+#wrap_options {
+    padding: 0 !important;
+}
+#menu_container {
+    padding-bottom: 0px!important;
+    padding-top: 0px!important;
+}
+
+.delete_log {
+    margin: 0 0 0 30px!important;
+    position: static!important;
+
+}
+.system span.delete_log {
+    font-size: 1.2em;
+}
+.admin_user_empty, #back_login, #guest_button, #guest_ok, #login_button, #register_button, #recovery_button, #newpass_button, #submit_avatar, .element, .container_element, .roombutton, .room_select_button, .view_user_button, .setting_option_button, #setting_button, #account_button, #update_password
+{
+    border-radius: 5px!important;
+}
+div#option_title p
+{
+    color: #77848F;
+}
+.title_user_quart {
+    background: #242f35 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04)!important;
+    border-top: 1px solid rgba(0, 0, 0, 0.04)!important;
+    color: rgba(163, 175, 183, 0.9)!important;
+    }
+#update_iframe {
+    background-color: #ccc !important;
+    margin-top: 6px;
+}
+div#private_count {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: medium none !important;
+    color: #21292e;
+    left: 9px !important;
+    top: 30% !important;
+    font-size: 0.7em;
+}
+#private_content {
+    font-size: 1.1em!important;
+    height: 40px!important;
+    padding: 0 9px!important;
+}
+#submit_private {
+    padding: 12px 0!important;
+}
+#private_chat ul {
+    margin-top: 24px!important;
+}
+#room_topic {
+    box-sizing: border-box!important;
+    padding: 13px 5px 5px!important;
+}
+#guest_ok {
+    width: 94%;
+}
+/*  Chat logs */
+
+.log1.system .my_text::before, .log2.system .my_text::before, .ch_logs.system .my_text::before {
+    border-color: transparent rgba(163, 175, 183, 0.1) transparent transparent;
+    left: -10px;
+    right: auto;
+}
+.system .my_text {
+    color: #46be8a !important;
+}
+.my_text::before {
+    border-image: none;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 10px;
+    width: 0;
+}
+.log1.system .my_text, .log2.system .my_text, .ch_logs.system .my_text {
+    background-color: rgba(163, 175, 183, 0.1);
+    color: rgba(163, 175, 183, 0.9);
+    float: left;
+    margin: 2px 0 10px 6px;
+}
+.log1.public .my_text::before, .log2.public .my_text::before, .ch_logs .my_text::before {
+    border-color: transparent rgba(163, 175, 183, 0.1) transparent transparent;
+    left: -10px;
+    right: auto;
+}
+.log1.public .my_text, .log2.public .my_text, .ch_logs .my_text {
+    background-color: rgba(163, 175, 183, 0.1);
+    color: rgba(163, 175, 183, 0.9);
+    float: left;
+    margin: 2px 0 10px 6px;
+}
+.log1 .my_text::before, .log2 .my_text::before, .ch_logs .my_text::before {
+    border-color: transparent rgba(163, 175, 183, 0.1) transparent transparent;
+    left: -10px;
+    right: auto;
+}
+.log1 .my_text, .log2 .my_text, .ch_logs .my_text {
+    background-color: rgba(163, 175, 183, 0.1);
+    color: rgba(163, 175, 183, 0.9);
+    float: left;
+    margin: 2px 0 10px 6px;
+}
+ .my_text {
+    border-radius: 4px;
+    display: block;
+    padding: 12px 15px 8px 15px;
+    position: relative;
+    max-width: calc(100% - 90px);
+}
+.private .my_text {
+    background-color: rgba(241, 91, 95, 0.44);
+    color: rgba(163, 175, 183, 0.9);
+    float: left;
+    margin: 2px 0 10px 6px;
+}
+.private .my_text::before {
+    border-color: transparent rgba(241, 91, 95, 0.44) transparent transparent;
+    left: -10px;
+    right: auto;
+}
+.global .my_text {
+    background-color: rgba(255, 186, 94, 0.44);
+    color: rgba(163, 175, 183, 0.9);
+    float: left;
+    margin: 2px 0 10px 6px;
+}
+.global .my_text::before {
+    border-color: transparent rgba(255, 186, 94, 0.44) transparent transparent;
+    left: -10px;
+    right: auto;
+}
+.me .my_text, .seen .my_text{
+    background-color: rgba(74, 135, 181, 0.44);
+    color: rgba(163, 175, 183, 0.9);
+    float: left;
+    margin: 2px 0 10px 6px;
+}
+.me .my_text::before, .seen .my_text::before {
+    border-color: transparent rgba(74, 135, 181, 0.44) transparent transparent;
+    left: -10px;
+    right: auto;
+}
+/* panel option */
+#setting_button, #update_password,.submit_image, #submit_avatar{
+    background: #242f35 none repeat scroll 0 0!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04)!important;
+    border-top: 1px solid rgba(0, 0, 0, 0.04)!important;
+    color: rgba(163, 175, 183, 0.9)!important;    
+    border-radius: 0!important;
+}
+#container_user, #container_help, #container_room, #container_user_admin, #container_user_room {
+    margin: 0 -9%;
+}
+#main_option input,
+#tools_panel input,
+#tools_panel textarea,
+#main_option textarea,
+.top_panels input,
+.top_panels textarea {
+    border: 1px solid rgba(163, 175, 183, 0.1)!important;
+}
+.sub_button {
+    cursor: pointer;
+}
+#tools_panel input.sub_button:hover,
+#chat_panel .hover_element:hover,
+.top_panels .hover_element:hover,
+#chat_panel .selected_element,
+.hunter_private,
+.top_panels .selected_element {
+    background-color: rgba(241, 91, 95, 0.44);
+    color: rgba(255, 255, 255, 0.8);
+}
+#chat_panel .room_type {
+    color: #222;
+    text-shadow: none!important;
+}
+.top_panels select {
+    color: #444!important;
+}
+.option_add {
+    background: #263238 none repeat scroll 0 0;
+    border: 1px solid #1e2427 !important;
+    border-radius: 0;
+}
+.panelone .sub_color {
+    color: #77848F;
+}
+/*  Menu fix */
+#menu .addon_button, .test_button, .other_panels, .load_option, .logout_button
+{
+    margin-right: 0 !important;
+    padding: 10px 0px 10px 10px !important;
+}
+#wrap_options .other_panels
+{
+    margin-right: 0 !important;
+    padding: 10px 15px !important;
+}
+#addon_container div:hover
+{
+    background-color: #1e2427;
+}
+#addon_container div div:hover
+{
+    background: transparent;
+}
+#menu div:hover
+{
+    background: #1e2427;
+}
+#menu div div:hover
+{
+    background: transparent;
+}
+/*  bar_options  */
+/*.bar_options:first-child {
+    background-color: transparent;
+    background-image: url(images/bar_options_l.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.bar_options:last-child {
+    background-color: transparent;
+    background-image: url(images/bar_options_r.png);
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.bar_options {
+    background-color: transparent;
+    background-image: url(images/bar_options_c.png);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+}*/
+.bar_options {
+    border-right: 1px solid rgba(163, 175, 183, 0.029);
+}
+/* ADDONS ICONS */
+#boom_search img, #boom_vip img, #boom_quiz img, #boom_bot img, #boom_embed img
+{
+    display: none;
+}
+#boom_search, #boom_vip, #boom_quiz, #boom_bot, #boom_embed{
+    background-repeat: no-repeat!important;
+    background-size: auto 100%!important;
+    background-position: center center!important;
+    height: 35px;
+    width: 35px;
+    }
+#boom_search{
+    background-image: url(addons/boom_search.png);
+    }
+#boom_vip{
+    background-image: url(addons/boom_vip.png);
+    }   
+#boom_quiz{
+    background-image: url(addons/boom_quiz.png);
+    } 
+#boom_bot{
+    background-image: url(addons/boom_bot.png);
+    }
+#boom_embed{
+    background-image: url(addons/boom_embed.png);
+    } 
+ 
+/*  MOBILE fix  */
+@media only screen and (max-width: 321px) {
+    
+.panels {
+    border-left: none!important;
+}
+.tooltip:hover::after {
+    bottom: 57px!important;}
+    
+.tooltip:hover::before {
+    bottom: 51px!important;}
+}

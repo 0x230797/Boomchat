@@ -1,0 +1,458 @@
+/* general colors */
+
+a {
+    color: blue;
+}
+body {
+    color: #bbb;
+    background-color: #2d342c;
+    background-image: url(images/bg.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+button {
+    background: transparent;
+    color: #bbb;
+}
+#external_wrap {}
+/* background color for box element */
+/*.background_chat, .background_login { background:#222; box-shadow:0 0 5px #000;}*/
+
+.background_box {
+    text-shadow: 0 0 6px #000;
+    color: #999;
+    border: none;
+}
+.background_menu_footer {
+    background: #1b211a url(images/footer_bg.jpg) repeat-x 0 0;
+}
+.panels {
+    background: #1b211a url(images/panel_bg.jpg) repeat-y 0 0;
+    box-shadow: 0 0 5px #000;
+    box-sizing: border-box;
+}
+#chat_error {
+    background: #111;
+}
+#inner_header,
+#header_login {
+    background: url(logo/Default.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left center;
+}
+#menu_private {
+    border-radius: 4px;
+    background: transparent url(images/opacity/0_3.png) repeat 0 0;
+    height: 28px!important;
+}
+/* chat logs switch colors */
+
+.log1 {
+    background: none;
+    border-top: 1px solid rgba(110, 110, 110, 0.2);
+    border-bottom: 1px solid #222!important;
+}
+.log2 {
+    background: transparent url(images/opacity/0_15.png) repeat scroll 0 0;
+    border-bottom: 1px solid #222!important;
+    border-top: 1px solid rgba(110, 110, 110, 0.2);
+}
+#show_chat li:last-child {
+    border-bottom: none!important;
+}
+.ch_logs {
+    border-bottom: none;
+}
+/* separator colors */
+
+.user_separator {
+    border-bottom: 1px solid #484c47;
+    border-radius: 6px;
+}
+.user_option_separator {
+    border-bottom: 1px solid #484c47;
+}
+/*.top_separator { border-top:1px solid #333; }*/
+
+.right_separator {
+    border-right: 1px solid #484c47;
+}
+/*.bottom_separator { border-bottom:1px solid #111; }*/
+/* user list drop down colors */
+
+.user_option_list {
+    background: #181818;
+    color: #fff;
+}
+/* button and element colors */
+
+.sub_button {
+    background: #484c47;
+    color: #fff;
+}
+#login_button,
+#register_button,
+#recovery_button,
+#newpass_button,
+#guest_button,
+#guest_ok {
+    box-sizing: border-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #72998a ;
+    background: transparent url(images/opacity/0_15.png) repeat 0 0;
+}
+#submit_button {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #72998a ;
+    background: transparent url(images/opacity/0_3.png) repeat 0 0;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+#submit_button:hover {
+    -webkit-box-shadow: 0 0 4px rgba(255, 255, 255, 0.13), 0 0 0 2px rgba(255, 255, 255, 0.05), 0 0 4px 2px rgba(0, 0, 0, 0.5)!important;
+    -moz-box-shadow: 0 0 4px rgba(255, 255, 255, 0.13), 0 0 0 2px rgba(255, 255, 255, 0.05), 0 0 4px 2px rgba(0, 0, 0, 0.5)!important;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.13), 0 0 0 2px rgba(255, 255, 255, 0.05), 0 0 4px 2px rgba(0, 0, 0, 0.5)!important;
+    /* this is main button send */
+}
+/* this is main button send */
+
+.sub_element {
+    background: #484c47;
+    color: #fff;
+}
+.empty_element {
+    background: #484c47;
+    color: #fff;
+}
+#main_option .selected_element {
+    background: #484c47 url(images/title_bg.png) repeat-x 0 bottom;
+    color: #fff;
+}
+.selected_element {
+    background: #4E826F;
+    color: #fff;
+}
+.hover_element:hover {
+    background: #4E826F;
+    color: #fff;
+}
+#main_option .hover_element:hover {
+    background: #346C57;
+    color: #fff;
+}
+/* ads background */
+
+#show_chat_ads {
+    background: #181D17!important;
+}
+/* special colors and sub colors */
+
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+.away {
+    color: #222;
+}
+.my_notice {
+    background: rgba(100, 100, 100, 0.9);
+    padding: 3px;
+}
+.sub_color2 {
+    color: #4E826F;
+}
+.sub_color {
+    color: #72998A;
+}
+#main_option .sub_color,
+#tools_panel .sub_color {
+    color: #72998A ;
+}
+.hide_private_title {
+    color: #ccc;
+}
+.room_userin {
+    color: #222;
+}
+.wrap_command:hover {
+    background: #484c47!important;
+}
+.tooltip:hover:before,
+.tooltip2:hover:before,
+.tooltip3:hover:before {
+    border-color: #484c47 transparent;
+}
+.tooltip:hover:after,
+.tooltip2:hover:after,
+.tooltip3:hover:after {
+    background: none repeat scroll 0 0 #484c47;
+    color: #fff;
+}
+/* private chat color message */
+
+.target_private {
+    color: #fff;
+    background: #484c47;
+}
+.hunter_private {
+    color: #fff;
+    background: #4E826F;
+}
+/* inside chat color */
+
+.datechat {
+    color: #666;
+}
+.me {
+    background: rgba(77, 102, 127, 0.5);
+    color: #036;
+    text-shadow: 0 0 1px #555;
+}
+.global {
+    color: #5f1d1d;
+    background: rgba(124, 86, 76, 0.5);
+    text-shadow: 0 0 1px #555;
+}
+.private {
+    color: #294229;
+    background: rgba(76, 124, 113, 0.5);
+    text-shadow: 0 0 1px #555;
+}
+.private_reply {
+    background: transparent url("images/opacity/0_3.png") repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #72998a;
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+.seen {
+    color: #3f2d4f;
+    background: rgba(77, 102, 127, 0.5);
+    text-shadow: 0 0 1px #555;
+}
+.delete_log, .logs_date {
+    color: #000;
+    text-shadow: 0 0 1px #555;
+}
+/* user color and special user color */
+
+.system {
+    color: #72998A!important;
+    font-size: .8em!important;
+}
+.admin {
+    color: #91455A;
+    text-shadow: 0 0 6px #000;
+}
+.sadmin {
+    color: #72998A;
+    text-shadow: 0 0 6px #000;
+}
+.modo {
+    color: #4E677D!important;
+    text-shadow: 0 0 6px #000;
+}
+.vip {
+    color: #096;
+    text-shadow: 0 0 6px #000;
+}
+.user {
+    color: #888;
+    text-shadow: 0 0 6px #000;
+}
+.guest {
+    color: #A07D4D;
+}
+/* color picker and tools bar */
+
+.bar_options {
+    border-left: 1px solid #20251F;
+    border-right: 1px solid #444;
+}
+/* change the bar element separator */
+
+#list_emoticon {
+    background: transparent url("images/opacity/0_3.png") repeat scroll 0 0;
+    box-shadow: 0 0 3px #000;
+}
+#picker_box {
+    background: #222;
+    box-shadow: 0 0 3px #000;
+    width: 120px!important;
+}
+/* change the background color of box */
+
+.sel_item {
+    background: #222;
+}
+
+/* change border of element and subelement */
+
+#smile_content {
+    background: #222;
+}
+/* change background of emoticon content */
+/* user list hover name */
+
+.usertarget:hover {
+    color: #fff!important;
+    opacity: 1;
+}
+.open_user {
+    background: #484c47;
+    border-radius: 5px;
+}
+/* input & textarea */
+
+input,
+textarea {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #72998a !important;
+    background: transparent url(images/opacity/0_3.png) repeat 0 0;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+select {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #72998a !important;
+    background: transparent url(images/opacity/0_3.png) repeat 0 0;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+/* delete element icon */
+
+.delete_element {
+    padding-right: 3px;
+}
+/*  fixes for parent styles  */
+.panelthree
+{
+    margin-bottom: -370px!important;  
+}
+.system span.delete_log {
+    font-size: 1.2em;
+}
+div#private_count {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: medium none !important;
+    left: 0 !important;
+    top: 22% !important;
+    color: #1C211A;
+    font-size: 0.7em;
+}
+#private_content {
+    font-size: 1.1em!important;
+    height: 40px!important;
+    padding: 0 9px!important;
+}
+#submit_private {
+    padding: 12px 0!important;
+}
+#private_chat ul {
+    margin-top: 24px!important;
+}
+#room_topic {
+    background: transparent url(images/opacity/0_15.png) repeat scroll 0 0;
+    box-sizing: border-box!important;
+    padding: 8px 5px 5px!important;
+    border-radius: 2px;
+    color: #72998A;
+}
+#guest_ok {
+    width: 94%;
+}
+/* panel option */
+
+#main_option input,
+#tools_panel input,
+#tools_panel textarea,
+#main_option textarea,
+.top_panels input,
+.top_panels textarea {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #72998A!important;
+    background: transparent url(images/opacity/0_3.png) repeat 0 0;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.13), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+.sub_button {
+    cursor: pointer;
+}
+#tools_panel input.sub_button:hover,
+#chat_panel .hover_element:hover,
+.top_panels .hover_element:hover,
+#chat_panel .selected_element,
+.hunter_private,
+.top_panels .selected_element {
+    background: #72998A ;
+}
+#chat_panel .room_type {
+    color: #222;
+    text-shadow: none!important;
+}
+.top_panels select {
+    color: #72998A!important;
+}
+.option_add {
+    background: #20251F none repeat scroll 0 0;
+    border: 1px solid #222;
+    border-radius: 4px 4px 0 0;
+}
+.panelone .sub_color {
+    color: #72998a ;
+}
+/* ADDONS ICONS */
+#boom_search img, #boom_vip img, #boom_quiz img, #boom_bot img, #boom_embed img
+{
+    display: none;
+}
+#boom_search, #boom_vip, #boom_quiz, #boom_bot, #boom_embed{
+    background-repeat: no-repeat!important;
+    background-size: auto 100%!important;
+    background-position: center center!important;
+    height: 35px;
+    width: 35px;
+    }
+#boom_search{
+    background: url(addons/boom_search.png);
+    }
+#boom_vip{
+    background: url(addons/boom_vip.png);
+    }   
+#boom_quiz{
+    background: url(addons/boom_quiz.png);
+    } 
+#boom_bot{
+    background: url(addons/boom_bot.png);
+    } 
+#boom_embed{
+    background-image: url(addons/boom_embed.png);
+    } 
