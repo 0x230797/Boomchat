@@ -38,7 +38,9 @@ CREATE TABLE IF NOT EXISTS `addons` (
 --
 
 INSERT INTO `addons` (`id`, `name`, `status`) VALUES
-(1, 'boom_bot', 1);
+(1, 'boom_bot', 1),
+(2, 'boom_embed', 1),
+(3, 'search_engine', 1);
 
 -- --------------------------------------------------------
 
