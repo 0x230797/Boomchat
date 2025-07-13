@@ -90,12 +90,31 @@ $("#addon_panel").on('click', '#boom_bot_update', function() {
 			cache: false,
 			success: function(response){
 				if(response == 2){
-					adsBotspeak();
+					// Ciclo reiniciado, volver a ejecutar
+					setTimeout(adsBotspeak, 5000);
+				}
+				else if(response == 3){
+					// No es tiempo aún, continuar el ciclo normal
+					return false;
+				}
+				else if(response == 1){
+					// Mensaje enviado exitosamente
+					return false;
+				}
+				else if(response == 0){
+					// Error al enviar mensaje
+					console.error('Error al enviar mensaje del bot');
+					return false;
 				}
 				else {
+					// Respuesta desconocida
 					return false;
 				}
 			},
+			error: function(xhr, status, error) {
+				console.error('Error en la comunicación con el bot:', error);
+				return false;
+			}
 		});
 	}
 	
@@ -108,6 +127,23 @@ $("#addon_panel").on('click', '#boom_bot_update', function() {
 			},
 		});
 	}
+	
+	// Función para inicializar el bot automáticamente
+	initializeBot = function(){
+		$.ajax({
+			url: "addons/boom_bot/execute/boom_bot_auto_activate.php",
+			cache: false,
+			success: function(response){
+				console.log('Bot inicializado:', response);
+			},
+			error: function(xhr, status, error) {
+				console.error('Error al inicializar el bot:', error);
+			}
+		});
+	}
+	
+	// Inicializar el bot al cargar la página
+	initializeBot();
 	
 	adsBotspeak();
 	
